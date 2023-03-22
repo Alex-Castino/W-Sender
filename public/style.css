@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+  }
+  
+  #qr-code {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+  }
+  
+  #message {
+    margin: 20px auto;
+    width: 300px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  #file-upload {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  #file-upload form {
+    display: inline-block;
+  }
+  
+  #file-upload label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #file-upload input[type=file] {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  #file-upload button[type=submit] {
+    display: block;
+    margin: 0 auto;
+  }
+  
